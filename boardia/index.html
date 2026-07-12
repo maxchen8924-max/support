@@ -4,22 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>這裡棋很多 · Boardia</title>
-  <meta name="description" content="這裡棋很多是一款離線棋類遊戲合輯。">
+  <meta name="description" content="這裡棋很多（Boardia）是一款離線棋類遊戲合輯，提供繁體中文與英文資訊。">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="page">
-    <section class="hero">
-      <p class="eyebrow">Boardia</p>
-      <h1>這裡棋很多</h1>
-      <p class="lede">一個安靜耐玩的離線棋類合輯，包含五子棋、圍棋、西洋棋、中國象棋、跳棋和陸戰棋。</p>
-      <div class="actions">
-        <a href="privacy.html">隱私政策</a>
-        <a href="support.html">支援頁面</a>
-      </div>
+    <nav class="topnav" aria-label="語言導覽">
+      <div class="nav-links"><a href="#zh-hant">繁體中文</a><a href="#en">English</a></div>
+      <div class="language-links"><a href="privacy.html">隱私 / Privacy</a><a href="support.html">支援 / Support</a></div>
+    </nav>
+
+    <section id="zh-hant" class="hero" lang="zh-Hant-TW">
+        <p class="eyebrow">Boardia</p>
+        <h1>這裡棋很多</h1>
+        <p class="lede">一個安靜耐玩的離線棋類合輯，包含五子棋、圍棋、西洋棋、中國象棋、跳棋和陸戰棋。</p>
+        <div class="actions">
+          <a href="privacy.html">隱私政策</a>
+          <a href="support.html">支援頁面</a>
+        </div>
     </section>
 
-    <section class="panel">
+    <section class="panel" lang="zh-Hant-TW">
       <h2>產品原則</h2>
       <ul>
         <li>不需要註冊帳號</li>
@@ -27,6 +32,24 @@
         <li>無遊戲內商店</li>
         <li>無內購</li>
         <li>棋局和設定優先儲存在本機裝置</li>
+      </ul>
+    </section>
+
+    <section id="en" class="panel translation" lang="en">
+      <p class="eyebrow">Boardia</p>
+      <h2>Offline Board Games</h2>
+      <p class="lede">A quiet, replayable collection of offline board games: Gomoku, Go, Chess, Chinese Chess, Checkers, and Army Chess.</p>
+      <div class="actions">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="support.html">Support</a>
+      </div>
+      <h3>Product Principles</h3>
+      <ul>
+        <li>No account required</li>
+        <li>No ads</li>
+        <li>No in-game store</li>
+        <li>No in-app purchases</li>
+        <li>Games and settings are stored locally on your device first</li>
       </ul>
     </section>
   </main>
